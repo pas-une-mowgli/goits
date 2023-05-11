@@ -1,0 +1,219 @@
+:root{
+    --main-bg-color: #2F303A;
+    --project-bg: #EEEEEE;
+    --active:#2196F3;
+    --blue: #188CE8;
+    --grey:#757575;
+    --white: #fff;
+    --light:#F5F4FA;
+    --title:#212121;
+    --black: #000;
+}
+
+
+body{
+    font-family: 'Roboto', 'Arial', 'Verdana', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--black);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+a.current{
+    color: var(--active);
+}
+
+.logo{
+    font-family: 'Raleway', 'Arial', 'Verdana', sans-serif;    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;    
+    text-decoration: none;
+    color: var(--black);
+}
+.logo-span{
+    color:var(--active)
+}
+
+.list{
+    list-style-type: none;    
+}
+
+.link{
+    color: var(--title);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--active)
+}
+.link:focus {
+    color: var(--active)
+}
+.contacts{
+    color: var(--grey)
+}
+.contacts:focus{
+    color: var(--active)
+}
+
+.promo{
+    width: 1600px;
+    height: 600px;
+    background-color: var(--main-bg-color);
+}
+.caption{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.button{
+    width: 216px;
+    height: 50px;
+    background-color: var(--active);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
+    border: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    cursor: pointer;
+}
+.button:hover{
+    background-color: var(--blue);
+   
+}
+.button:focus {
+    background-color: var(--blue);
+
+}
+.subtitle{
+    font-weight: 700;    
+    line-height: 1.5;    
+    text-transform: uppercase;
+    color: var(--title);
+}
+
+.descr{        
+    line-height: 1.7;
+    color: var(--grey);
+}
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;    
+    color: var(--title);
+}
+.team-card{
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1632px;
+    background: var(--white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;   
+    text-align: center;        
+    color: var(--title);
+}
+.team-descr{    
+    font-size: 16px;
+    line-height: 1.2;    
+    text-align: center;        
+    color: var(--grey);
+}
+.footer{
+    width: 1600px;
+    height: 252px;
+    background-color: var(--main-bg-color);
+}
+.footer-logo{
+    color:var(--white)
+}
+.footer-contacts{    
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;    
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer-contacts:hover{
+    color:var(--active);
+}
+.footer-contacts:focus {
+    color: var(--active);
+}
+
+.footer-address{
+    color: var(--white);
+}
+
+.list-button{
+    width: 130px;
+    height: 38px;    
+    background: var(--light);
+    border-radius: 4px;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;    
+    color: var(--title);
+    cursor: pointer;
+}
+.list-button:hover{
+    background: var(--active);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color:var(--white);
+}
+.list-button:focus {
+    background: var(--active);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--white);
+}
+
+.project-item{
+    width: 370px;
+    height: 404px;    
+    background: var(--white);
+    border: 1px solid var(--project-bg);
+}
+.project-subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title);
+}
+.project-descr{
+    font-size: 16px;
+    line-height: 30px;    
+    color: var(--grey);
+}
